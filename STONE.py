@@ -32,6 +32,7 @@ if name == "STONE" :
     print("\033[0;32m8-install LEDAR-HACKING")
     print("\033[0;32m9-install BRUTEFORCEnew")
     print("\033[0;32m10-install A-Rat")
+    print("\033[0;31m[00]\033[0;32mEXIT")
 else:
     print("\033[0;31mwrong Password")
 stn = input(">>>")
@@ -55,4 +56,9 @@ if stn == "9" :
     os.system('git clone https://github.com/FR13ND8/BRUTEFORCEnew')
 if stn == "10" :
     os.system('git clone https://github.com/RexTheGod/A-Rat')
-
+else:
+    print ("Error")
+    print ("Thank You To Try Stone Tool")
+if stn == "00" :
+    os.system('clear')
+    print("\033[0;32mThank You To Use Stone Tool BaBy")
